@@ -1,0 +1,28 @@
+a
+{
+font-size: 18pt;
+text-decoration: none;
+}
+a:link
+{
+color: blue;
+}
+a:visited
+{
+color: green;
+}
+a:hover
+{
+color: red;
+text-decoration: underline;
+}
+div{
+    color: red;
+    font-size: 2cm;
+    
+    }
+    /*        
+text-decoration: none; tekst nie ma zmienionego wyglądu
+text-decoration: underline; określenie wyglądu linii pod tekstem.
+Adam Redzimski
+    */

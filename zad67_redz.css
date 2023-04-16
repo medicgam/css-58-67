@@ -1,0 +1,42 @@
+p#p1
+ {
+ color:silver;
+ font-size:19pt;
+ }
+ p#p2
+ {
+ color:silver;
+ font-size:22pt;
+ }
+p#p1:first-letter
+{
+color: yellow;
+font-size: 118pt;
+}
+p#p2:first-letter
+{
+  color: yellow;  
+  font-size: 118pt;
+}
+h1#h1{
+color: purple;
+
+}
+h1#h1:first-letter{
+    color: silver;
+}
+
+p#p3{
+    color: blue;
+    font-size:20pt;
+    }
+
+p#p3:first-letter{
+    font-size: 118pt;
+}
+p#p3:first-line{
+    color: red;
+    }
+    /*Adam Redzimski*/
+    
+

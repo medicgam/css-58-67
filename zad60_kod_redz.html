@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+ <head>
+    <meta charset="utf-8">
+    <title>zad60 kod</title>
+ </head>
+<body>
+    <h2>Plik:zad60_redz.html</h2>
+    <hr>
+<pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="pl-PL"&gt; 
+     &lt;head&gt; 
+        &lt;meta charset="utf-8"&gt; 
+        &lt;title&gt;zad60&lt;/title&gt; 
+        &lt;link rel="stylesheet" href="zad60_redz.css"&gt; 
+     &lt;/head&gt; 
+    &lt;body&gt; 
+    &lt;p style="color:red;font-size:10mm"&gt; Mam numer w dzienniku 24 to kolory: żółty,złoty,srebrny dla hover&lt;/p&gt; 
+    &lt;p style="color:blue;font-size:10mm"&gt;Wiekość_liter=(18+reszta_z_dzielenia(liczba_liter_nazwiska przez 4)[mm])&lt;/p&gt; 
+    &lt;p style="color:green;font-size:10mm"&gt;mam na nazwisko Redzimski=9 liter czyli wielkośćliter D=(18+9%4)=19mm &lt;/p&gt; 
+        &lt;p&gt;&lt;div id="blok1_redzimski"&gt; 
+            Blok1 Adam Redzimski
+        &lt;/div&gt; 
+    &lt;/p&gt; 
+    &lt;p&gt;&lt;div id="blok2_redzimski"&gt; 
+            Blok2 Adam Redzimski
+        &lt;/div&gt; 
+    &lt;/p&gt; 
+    &lt;p&gt;&lt;div id="blok3_redzimski"&gt; 
+            Blok3 Adam Redzimski
+        &lt;/div&gt; 
+    &lt;/p&gt; 
+        &lt;!--Funkcja hover sprawia że styl css zostanie zastosowany
+nawet jeśli użytkownik nie kliknął w np. link, a tylko na niego najechał.
+    Adam Redzimski--&gt; 
+    &lt;/body&gt; 
+    &lt;/html&gt; 
+    
+     
+</pre>
+<hr>
+<h2>Plik:zad60_redz.css</h2>
+<hr>
+<pre>
+    div{
+        width:624px;
+        background-color: green;
+        
+        }
+        #blok1_redzimski:hover
+        {
+            background-color: yellow;
+            font-size:18mm
+        }
+        #blok2_redzimski:hover
+        {
+            background-color: gold;
+            font-size:18mm
+        }
+        #blok3_redzimski:hover
+        {
+            background-color: silver;
+            font-size:18mm
+        }
+        
+        
+        
+        
+        
+        
+        &lt;*
+       Funkcja hover sprawia że styl css zostanie zastosowany
+nawet jeśli użytkownik nie kliknął w np. link, a tylko na niego najechał.
+        Adam Redzimski
+        *&gt;
+</pre>
+<hr>
+</body>
+</html>

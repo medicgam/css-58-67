@@ -1,0 +1,31 @@
+div{
+width:624px;
+background-color: green;
+
+}
+#blok1_redzimski:hover
+{
+    background-color: yellow;
+    font-size:18mm
+}
+#blok2_redzimski:hover
+{
+    background-color: gold;
+    font-size:18mm
+}
+#blok3_redzimski:hover
+{
+    background-color: silver;
+    font-size:18mm
+}
+
+
+
+
+
+
+/*
+Funkcja hover sprawia że styl css zostanie zastosowany
+nawet jeśli użytkownik nie kliknął w np. link, a tylko na niego najechał,
+Adam Redzimski
+*/

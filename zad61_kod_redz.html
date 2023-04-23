@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+ <head>
+    <meta charset="utf-8">
+    <title>zad61 kod</title>
+ </head>
+<body>
+    <h2>Plik:zad61_redz.html</h2>
+    <hr>
+<pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="pl-PL"&gt; 
+     &lt;head&gt; 
+        &lt;meta charset="utf-8"&gt; 
+        &lt;title&gt;zad61&lt;/title&gt; 
+        &lt;link rel="stylesheet" href="zad61_redz.css"&gt; 
+     &lt;/head&gt; 
+    &lt;body&gt; 
+       &lt;b&gt;Realizacja strony dla arkusza styli (fragment)&lt;/b&gt;  &lt;br&gt; 
+    W kodzie strony w celu zróżnicowania rozmiaru czcionki w odnośnikach należy skorzystać z &lt;br&gt; 
+    klasy o nazwie &lt;b&gt;maly&lt;/b&gt;.&lt;br&gt; 
+    &lt;ul&gt; 
+    &lt;li&gt;&lt;a href="http://www.zse.gda.pl" class="maly"&gt;Portal WP&lt;/a&gt;&lt;/li&gt; 
+    &lt;li&gt;&lt;a href="http://onet.pl"&gt;Portal Onet.pl&lt;/a&gt;&lt;/li&gt; 
+    &lt;li&gt;&lt;a href="http://helion.pl"&gt;Wydawnictwo Helion&lt;/a&gt;&lt;/li&gt; 
+    &lt;/ul&gt; 
+    &lt;!--Adam Redzimski--&gt; 
+    &lt;/body&gt; 
+    &lt;/html&gt;  
+</pre>
+<hr>
+<h2>Plik:zad61_redz.css</h2>
+<hr>
+<pre>
+    a
+    {
+    font-size:24pt;
+    text-decoration:none;
+    }
+   a:link
+    {
+    color:navy;
+    }
+   a:visited
+    {
+    color:green;
+    }
+   a:hover
+    {
+    color:red;
+    text-decoration:underline;
+    }
+   a.maly
+   {
+       font-size: 12pt;
+       }
+      a.maly:link
+       {
+       color:silver;;
+       }
+      a.maly:visited
+       {
+       color:yellow;
+       }
+      a.maly:hover
+       {
+       color:black;
+       text-decoration:none;
+       }
+      a:active
+       {
+       color:silver;
+       }
+      
+       &lt;*Adam Redzimski*&gt;
+</pre>
+<hr>
+</body>
+</html>
